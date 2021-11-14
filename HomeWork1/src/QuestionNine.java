@@ -12,6 +12,7 @@ public class QuestionNine {
                 System.out.print(i + " ");
             }
         }
+        System.out.println("These are all prime numbers from a number to the number you selected.");
     }
 
     public static boolean remainingDivision(int num1, int num2) {
@@ -47,14 +48,14 @@ public class QuestionNine {
 
     public static int positiveNumber() {
         Scanner scanner = new Scanner(System.in);
-        int number;
+        int userInput;
         do {
             System.out.println("Enter a positive number : ");
-            number = scanner.nextInt();
+            userInput = scanner.nextInt();
         }
-        while (number < 0);
+        while (userInput < 0);
 
-        return number;
+        return userInput;
     }
 
 }

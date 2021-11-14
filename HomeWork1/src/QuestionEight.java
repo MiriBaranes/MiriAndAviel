@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 public class QuestionEight {
+
     public static final int BIGGEST_NUMBER = 20;
     public static final int SMALLEST_NUMBER = 5;
+
     public static void main(String[] arge) {
         int numberValue = inputNumber();
         asterisksPrint(numberValue);
